@@ -12,6 +12,7 @@ List of tools configured in the project:
 * React Redux
 * Firebase
 * ESLint (Airbnb)
+* Jest and Enzyme
 
 
 ## Configuration
@@ -21,6 +22,7 @@ The project includes:
 * basic file structure
 * necessary packages
 * examples of files
+* ESLint autofix after save (for VS Code)
 
 
 ## License

@@ -1,14 +1,13 @@
 import React from 'react';
-import Layout from "../utils/layout"
-import SEO from "../utils/seo"
-import Index from '../containers/Index'
+import Layout from '../utils/Layout';
+import SEO from '../utils/Seo';
+import Index from '../containers/Index';
 
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Main page" />
+    <Index />
+  </Layout>
+);
 
-const IndexPage = () => 
-        <Layout >
-            <SEO title="Strona główna" />
-            <Index />
-        </Layout>
-
-
-export default IndexPage
+export default IndexPage;
