@@ -11,13 +11,20 @@ import {
 import changeSection from '../../state/actions/other';
 import DefaultImg from '../../img/icons/default.png';
 
-const StyledDiv = styled.div`
+const StyledButton = styled.button`
   display: flex;
   align-items: center;
   flex-direction: column;
   jusitfy-content: center;
   cursor: pointer;
   margin: 0 10px;
+  background: none;
+  border: none;
+  &:focus {
+    outline: 1px solid ${({
+    theme
+  }) => `${theme.colors.darkGreen}`};; 
+  }
 `;
 
 const StyledImg = styled(Img)`
@@ -74,10 +81,10 @@ const MenuItem = ({
   };
 
   return (
-    <StyledDiv onClick={() => dispatch(changeSection(title))}>
+    <StyledButton onClick={() => dispatch(changeSection(title))}>
       {showIcon()}
       <StyledSpan>{title}</StyledSpan>
-    </StyledDiv>
+    </StyledButton>
   );
 };
 
