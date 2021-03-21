@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsbytemplate',
-    description: 'gatsbytemplate - starter for gatsby',
+    title: 'gatsby-template',
+    description: 'gatsby-template - a fully configured starter for creating new Gatsby apps',
     author: 'koszelak.piotr@gmail.com',
     siteUrl: 'https://github.com/PiotrKoszelak/GatsbyTemplate',
   },

@@ -5,7 +5,7 @@ import Index from '../containers/Index';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Main page" />
+    <SEO title='Main page' />
     <Index />
   </Layout>
 );

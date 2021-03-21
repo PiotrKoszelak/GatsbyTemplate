@@ -1,15 +1,15 @@
-import firebaseConfig from "./firebase_config";
+import firebaseConfig from './firebase_config';
 
 let firebaseInstance;
-export const getFirebase = firebase => {
+const getFirebase = firebase => {
   if (firebaseInstance) {
-    return firebaseInstance
+    return firebaseInstance;
   }
 
-  firebase.initializeApp(firebaseConfig)
-  firebaseInstance = firebase
+  firebase.initializeApp(firebaseConfig);
+  firebaseInstance = firebase;
 
-  return firebase
-}
+  return firebase;
+};
 
-export default getFirebase
+export default getFirebase;

@@ -1,6 +1,12 @@
 {
   "extends": "airbnb",
+  "parser": "babel-eslint",
   "rules": {
-    "linebreak-style": 0
+    "linebreak-style": 0,
+    "jsx-quotes": ["error", "prefer-single"],
+    "arrow-parens": ["error", "as-needed"],
+    "comma-dangle": ["error", "never"],
+    "object-curly-newline": ["error", "always"],
+    "import/prefer-default-export": "off"
   }
 }

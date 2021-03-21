@@ -1,15 +1,11 @@
 import React from 'react';
-import Menu from '../components/commonElements/Menu';
-import MenuItem from '../components/commonElements/MenuItem';
-import InfoContent from '../components/index/InfoContent';
+import Menu from '../components/common/Menu';
+import Content from '../components/index/content';
 
 const Index = () => (
   <>
-    <Menu>
-      <MenuItem iconName="email" title="contact" />
-      <MenuItem iconName="user" title="log in" />
-    </Menu>
-    <InfoContent />
+    <Menu />
+    <Content />
   </>
 );
 

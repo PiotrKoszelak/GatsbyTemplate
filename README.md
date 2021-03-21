@@ -8,10 +8,10 @@ The project can be used as a starter for creating new Gatsby apps.
 
 List of tools configured in the project:
 
-* Gatsby
+* Gatsby (jest)
 * React Redux
 * Firebase
-* ESLint (Airbnb)
+* ESLint (Airbnb) (jest)
 * Jest and Enzyme
 
 

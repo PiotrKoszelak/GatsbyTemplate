@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
+import styled, {
+  createGlobalStyle, ThemeProvider
+} from 'styled-components';
 import theme from './theme';
 
 const GlobalStyle = createGlobalStyle`
@@ -19,19 +21,19 @@ const Main = styled.main`
   height: 100vh;
 `;
 
-const Layout = ({ children }) => (
+const Layout = ({
+  children
+}) => (
   <ThemeProvider theme={theme}>
-    <>
-      <GlobalStyle />
-      <Main>
-        {children}
-      </Main>
-    </>
+    <GlobalStyle />
+    <Main>
+      {children}
+    </Main>
   </ThemeProvider>
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default Layout;
