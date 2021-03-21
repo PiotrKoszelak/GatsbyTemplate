@@ -1,29 +1,25 @@
-
 # Description
 
-The repo consists of fully configured Gatsby project. 
+The repo consists of fully configured Gatsby project.
 The project can be used as a starter for creating new Gatsby apps.
 
 ## Tools
 
 List of tools configured in the project:
 
-* Gatsby (jest)
-* React Redux
-* Firebase
-* ESLint (Airbnb) (jest)
-* Jest and Enzyme
-
+- Gatsby
+- React Redux
+- Firebase
+- ESLint (Airbnb)
+- Jest and Enzyme
 
 ## Configuration
 
 The project includes:
 
-* basic file structure
-* necessary packages
-* examples of files
-* ESLint autofix after save (for VS Code)
-
+- basic file structure
+- necessary packages
+- examples of components
 
 ## License
 
@@ -33,5 +29,6 @@ MIT license
 
 ## Author
 
-Piotr Koszelak 
+Piotr Koszelak
+
 > koszelak.piotr@gmail.com
