@@ -10,16 +10,18 @@ List of tools configured in the project:
 - Gatsby
 - React Redux
 - Firebase
-- ESLint (Airbnb)
-- Jest and Enzyme
+- Styled components
+- ESLint
+- Jest and React Testing Library
 
 ## Configuration
 
 The project includes:
 
-- basic file structure
-- necessary packages
+- basic files structure
 - examples of components
+- necessary packages
+- some examples of unit tests
 
 ## License
 

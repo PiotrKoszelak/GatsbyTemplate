@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button defaul behavior renders correctly 1`] = `
+<button
+  className="sc-AxjAm gqoGzI"
+  onClick={[Function]}
+  width="75px"
+>
+  Default text
+</button>
+`;

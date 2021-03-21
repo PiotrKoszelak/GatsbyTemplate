@@ -7,6 +7,11 @@
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "never"],
     "object-curly-newline": ["error", "always"],
-    "import/prefer-default-export": "off"
-  }
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+  },
+  "env": {
+    "jest": true
+}
 }
