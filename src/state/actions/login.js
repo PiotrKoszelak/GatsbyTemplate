@@ -26,8 +26,8 @@ export const loginReset = () => ({
 
 const login = (username, password) => dispatch => {
   dispatch(loginStart());
-  Promise.all([lazyApp, lazyLogin]).then(([firebase]) => {
-    const firebaseInst = getFirebase(firebase);
+  Promise.all([lazyApp, lazyLogin]).then(() => {
+    const firebaseInst = getFirebase();
     firebaseInst
       .auth()
       .signInWithEmailAndPassword(username, password)

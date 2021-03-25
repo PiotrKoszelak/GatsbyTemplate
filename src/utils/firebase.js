@@ -1,7 +1,8 @@
+import firebase from 'firebase/app';
 import firebaseConfig from './firebase_config';
 
 let firebaseInstance;
-const getFirebase = firebase => {
+const getFirebase = () => {
   if (firebaseInstance) {
     return firebaseInstance;
   }

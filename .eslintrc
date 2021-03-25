@@ -9,7 +9,8 @@
     "object-curly-newline": ["error", "always"],
     "import/prefer-default-export": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "no-unused-vars": [1, {"vars": "all", "args": "after-used"}]
   },
   "env": {
     "jest": true

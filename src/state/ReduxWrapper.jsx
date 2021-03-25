@@ -25,8 +25,8 @@ let createStore = () => reduxCreateStore(rootReducer,
     applyMiddleware(thunk)
   ));
 
-Promise.all([lazyApp, lazyLogin, lazyFirestore]).then(([firebase]) => {
-  const firebaseInst = getFirebase(firebase);
+Promise.all([lazyApp, lazyLogin, lazyFirestore]).then(() => {
+  const firebaseInst = getFirebase();
   createStore = () => reduxCreateStore(rootReducer,
     compose(
       applyMiddleware(thunk),
